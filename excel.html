@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <link rel="stylesheet" href="excel.css">
+</head>
+<body>
+    <!-- <h1 id="head1"> heading</h1>
+    <div id="userDiv">
+        <p id="name" class="info">Adamu law</p>
+        <p id="about" class="info">A students life</p>
+
+    </div>
+    <input onkeyup="realTimeText()" type="text" id="inputBox">
+    <button id="eventbtn">i am button</button> -->
+
+    <div id="mainDiv">
+        <h1 id="head1"> Registration Form </h1>
+        <form action="" id="dForm">
+            <label for=""><b>Email:</b></label><br>
+            <input type="email" id="emailInput1" onblur="emailValidation()" /><br>
+            <p class="errors" id="emailError"> </p>
+            <br><br>
+            <label for=""><b>Password:</b></label><br>
+            <input type="password" id="passInput1" onblur="passwordValidation()" /><br>
+            <p class="errors" id="passwordError"></p>
+            <br><br>
+            <label for=""><b>Confirm Password: </b></label><br>
+            <input type="password" id="passInput2" onblur="confirmValidation()" /><br>
+            <p class="errors" id="ConfirmPasswordError"></p>
+        </form>
+    </div>
+    <script src="excel.js"></script>
+</body>
+</html>

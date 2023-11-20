@@ -1,0 +1,41 @@
+/* #head1 {
+ background-color: red;
+ width: 50%;
+ height: 120px;
+ margin-top: 200px;
+ color: aliceblue;
+ padding: 12px;
+
+}
+
+#inputBox {
+margin-top: 200px;
+}
+
+#eventbtn {
+margin-top: 10px;
+} */
+
+#mainDiv {
+    background-color: yellowgreen;
+    width: 40%;
+    min-height: 120px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: rgb(16, 13, 13);
+}
+
+input {
+    border: 2px solid black;
+    width: 70%;
+    height: 20px;
+}
+
+.errors {
+    color: red;
+    font-size: 14px;
+}
