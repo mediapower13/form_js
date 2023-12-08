@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(8, 4, 53);
+    
+    size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+h3{
+    color: rgb(50, 13, 182);
+    text-align: center;
+    size: 600px;
+    
+}
+div{
+    color: rgb(102, 27, 177);
+    ;
+    
+    text-align: center;
+}
+h2{
+    color: rgb(233, 242, 246);
+    padding: 0px;
+    
+}
+form{
+    background-color: rgb(21, 31, 39);
+    border-radius: 70px;
+    background-position: 40px;
+    background-size: 20px;
+    border-left-color: rgb(14, 198, 204);
+    border-radius: 40px;
+    color: blueviolet;
+}
